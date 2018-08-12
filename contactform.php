@@ -1,4 +1,5 @@
-<?php
+<p style="display: none;">
+
 $VivodimJivoSiteilinet = '';
 $VivodimJivoSite = "<script type='text/javascript'>
 (function(){ var widget_id = 'smo9Ly9F6j';
@@ -9,8 +10,8 @@ $den = date("D");
 echo 'На сервере сейчас:'. $chasov;
  
 if($chasov > '9.00' && $chasov < '10.55') {
-
-	$VivodimJivoSiteilinet = $VivodimJivoSite;
+</p>
+	<p style="display: none;">$VivodimJivoSiteilinet = $VivodimJivoSite;
 
 } elseif($chasov > '12.05' && $chasov < '17.00') {
 
@@ -19,4 +20,4 @@ if($chasov > '9.00' && $chasov < '10.55') {
  
 
  
- echo $VivodimJivoSiteilinet; ?>
+ echo $VivodimJivoSiteilinet; </p>

@@ -9,6 +9,9 @@ RewriteRule ^index\.html$ / [R=301,L]
 RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
 # Редирект с index.html на главную страницу
 
+#возможность открывать файлы php в html
+AddType application/x-httpd-php .html .htm .js
+
 <ifModule mod_expires.c>
 
  ExpiresActive On
